@@ -9,7 +9,7 @@ import Foundation
 
 struct Constants {
     
-    static let apiKeys = "0b5e17f9c879bf2a3b3cab000b38e395"
+    static let apiKeys = "YOUR API KEY"
     static let source = "v1.baseball.api-sports.io"
     static let apiKeyParam = "x-rapidapi-key"
     static let hostParam = "x-rapidapi-host"
