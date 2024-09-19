@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		842CA57E2C8A8937008D116F /* PointsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842CA57D2C8A8937008D116F /* PointsCell.swift */; };
+		8434928D2C9505AE00B6A865 /* NoDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8434928C2C9505AE00B6A865 /* NoDataCell.swift */; };
+		8452F1D12C434E2700E3EF7A /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8452F1D02C434E2700E3EF7A /* MainCoordinator.swift */; };
+		8452F1D32C45A68000E3EF7A /* TeamDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8452F1D22C45A68000E3EF7A /* TeamDetailsView.swift */; };
+		8452F1D52C45B6EA00E3EF7A /* TeamsDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8452F1D42C45B6EA00E3EF7A /* TeamsDetailsController.swift */; };
+		8452F1D72C45B71A00E3EF7A /* TeamsDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8452F1D62C45B71A00E3EF7A /* TeamsDetailViewModel.swift */; };
+		8452F1D92C45B7B600E3EF7A /* TeamsDetailModel .swift in Sources */ = {isa = PBXBuildFile; fileRef = 8452F1D82C45B7B600E3EF7A /* TeamsDetailModel .swift */; };
+		84945E832C3E10E600993951 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84945E822C3E10E600993951 /* AppDelegate.swift */; };
+		84945E852C3E10E600993951 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84945E842C3E10E600993951 /* SceneDelegate.swift */; };
+		84945E872C3E10E600993951 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84945E862C3E10E600993951 /* ViewController.swift */; };
+		84945E8C2C3E10EB00993951 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84945E8B2C3E10EB00993951 /* Assets.xcassets */; };
+		84945E8F2C3E10EB00993951 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84945E8D2C3E10EB00993951 /* LaunchScreen.storyboard */; };
+		84945E982C3E147100993951 /* ServiceKBO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84945E972C3E147100993951 /* ServiceKBO.swift */; };
+		84945E9A2C3EC1C400993951 /* TeamsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84945E992C3EC1C400993951 /* TeamsModel.swift */; };
+		84945E9C2C3EC48500993951 /* ErrorCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84945E9B2C3EC48500993951 /* ErrorCases.swift */; };
+		84945E9E2C3EC5EE00993951 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84945E9D2C3EC5EE00993951 /* Constants.swift */; };
+		84945EA02C3EC7AE00993951 /* TeamsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84945E9F2C3EC7AE00993951 /* TeamsViewCell.swift */; };
+		84945EA22C3ED41800993951 /* TeamsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84945EA12C3ED41800993951 /* TeamsViewModel.swift */; };
+		84945EA42C3ED5F700993951 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84945EA32C3ED5F700993951 /* Extensions.swift */; };
+		84E59F9D2C559DD5008B679E /* WinsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E59F9C2C559DD5008B679E /* WinsCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		842CA57D2C8A8937008D116F /* PointsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsCell.swift; sourceTree = "<group>"; };
+		8434928C2C9505AE00B6A865 /* NoDataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoDataCell.swift; sourceTree = "<group>"; };
+		8452F1D02C434E2700E3EF7A /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		8452F1D22C45A68000E3EF7A /* TeamDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetailsView.swift; sourceTree = "<group>"; };
+		8452F1D42C45B6EA00E3EF7A /* TeamsDetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsDetailsController.swift; sourceTree = "<group>"; };
+		8452F1D62C45B71A00E3EF7A /* TeamsDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsDetailViewModel.swift; sourceTree = "<group>"; };
+		8452F1D82C45B7B600E3EF7A /* TeamsDetailModel .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TeamsDetailModel .swift"; sourceTree = "<group>"; };
+		84945E7F2C3E10E600993951 /* Kbo League.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kbo League.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84945E822C3E10E600993951 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84945E842C3E10E600993951 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		84945E862C3E10E600993951 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84945E8B2C3E10EB00993951 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84945E8E2C3E10EB00993951 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84945E902C3E10EB00993951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84945E972C3E147100993951 /* ServiceKBO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceKBO.swift; sourceTree = "<group>"; };
+		84945E992C3EC1C400993951 /* TeamsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsModel.swift; sourceTree = "<group>"; };
+		84945E9B2C3EC48500993951 /* ErrorCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorCases.swift; sourceTree = "<group>"; };
+		84945E9D2C3EC5EE00993951 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		84945E9F2C3EC7AE00993951 /* TeamsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsViewCell.swift; sourceTree = "<group>"; };
+		84945EA12C3ED41800993951 /* TeamsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsViewModel.swift; sourceTree = "<group>"; };
+		84945EA32C3ED5F700993951 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		84E59F9C2C559DD5008B679E /* WinsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinsCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84945E7C2C3E10E600993951 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84945E762C3E10E500993951 = {
+			isa = PBXGroup;
+			children = (
+				84945E812C3E10E600993951 /* Kbo League */,
+				84945E802C3E10E600993951 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84945E802C3E10E600993951 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84945E7F2C3E10E600993951 /* Kbo League.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84945E812C3E10E600993951 /* Kbo League */ = {
+			isa = PBXGroup;
+			children = (
+				84945E962C3E145B00993951 /* Service */,
+				84945E822C3E10E600993951 /* AppDelegate.swift */,
+				84945E842C3E10E600993951 /* SceneDelegate.swift */,
+				84945EA82C3ED9A600993951 /* Controllers */,
+				84945E8B2C3E10EB00993951 /* Assets.xcassets */,
+				84945E8D2C3E10EB00993951 /* LaunchScreen.storyboard */,
+				84945E902C3E10EB00993951 /* Info.plist */,
+				84945EA92C3ED9BF00993951 /* Model */,
+				84945EA52C3ED98200993951 /* Util */,
+				84945EA62C3ED99900993951 /* View */,
+				84945EA72C3ED99F00993951 /* ViewModel */,
+				8452F1D02C434E2700E3EF7A /* MainCoordinator.swift */,
+			);
+			path = "Kbo League";
+			sourceTree = "<group>";
+		};
+		84945E962C3E145B00993951 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				84945E972C3E147100993951 /* ServiceKBO.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		84945EA52C3ED98200993951 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				84945E9B2C3EC48500993951 /* ErrorCases.swift */,
+				84945E9D2C3EC5EE00993951 /* Constants.swift */,
+				84945EA32C3ED5F700993951 /* Extensions.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		84945EA62C3ED99900993951 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84945E9F2C3EC7AE00993951 /* TeamsViewCell.swift */,
+				84E59F9C2C559DD5008B679E /* WinsCell.swift */,
+				8452F1D22C45A68000E3EF7A /* TeamDetailsView.swift */,
+				842CA57D2C8A8937008D116F /* PointsCell.swift */,
+				8434928C2C9505AE00B6A865 /* NoDataCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84945EA72C3ED99F00993951 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				84945EA12C3ED41800993951 /* TeamsViewModel.swift */,
+				8452F1D62C45B71A00E3EF7A /* TeamsDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		84945EA82C3ED9A600993951 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				84945E862C3E10E600993951 /* ViewController.swift */,
+				8452F1D42C45B6EA00E3EF7A /* TeamsDetailsController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		84945EA92C3ED9BF00993951 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84945E992C3EC1C400993951 /* TeamsModel.swift */,
+				8452F1D82C45B7B600E3EF7A /* TeamsDetailModel .swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84945E7E2C3E10E600993951 /* Kbo League */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84945E932C3E10EB00993951 /* Build configuration list for PBXNativeTarget "Kbo League" */;
+			buildPhases = (
+				84945E7B2C3E10E600993951 /* Sources */,
+				84945E7C2C3E10E600993951 /* Frameworks */,
+				84945E7D2C3E10E600993951 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kbo League";
+			productName = "Kbo League";
+			productReference = 84945E7F2C3E10E600993951 /* Kbo League.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84945E772C3E10E500993951 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					84945E7E2C3E10E600993951 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 84945E7A2C3E10E500993951 /* Build configuration list for PBXProject "Kbo League" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84945E762C3E10E500993951;
+			productRefGroup = 84945E802C3E10E600993951 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84945E7E2C3E10E600993951 /* Kbo League */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84945E7D2C3E10E600993951 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84945E8F2C3E10EB00993951 /* LaunchScreen.storyboard in Resources */,
+				84945E8C2C3E10EB00993951 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84945E7B2C3E10E600993951 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8452F1D32C45A68000E3EF7A /* TeamDetailsView.swift in Sources */,
+				84945E982C3E147100993951 /* ServiceKBO.swift in Sources */,
+				84945E9A2C3EC1C400993951 /* TeamsModel.swift in Sources */,
+				8452F1D92C45B7B600E3EF7A /* TeamsDetailModel .swift in Sources */,
+				84945E872C3E10E600993951 /* ViewController.swift in Sources */,
+				84945E832C3E10E600993951 /* AppDelegate.swift in Sources */,
+				84945E9E2C3EC5EE00993951 /* Constants.swift in Sources */,
+				8452F1D12C434E2700E3EF7A /* MainCoordinator.swift in Sources */,
+				84945EA42C3ED5F700993951 /* Extensions.swift in Sources */,
+				8452F1D72C45B71A00E3EF7A /* TeamsDetailViewModel.swift in Sources */,
+				8434928D2C9505AE00B6A865 /* NoDataCell.swift in Sources */,
+				84E59F9D2C559DD5008B679E /* WinsCell.swift in Sources */,
+				8452F1D52C45B6EA00E3EF7A /* TeamsDetailsController.swift in Sources */,
+				842CA57E2C8A8937008D116F /* PointsCell.swift in Sources */,
+				84945E9C2C3EC48500993951 /* ErrorCases.swift in Sources */,
+				84945E852C3E10E600993951 /* SceneDelegate.swift in Sources */,
+				84945EA02C3EC7AE00993951 /* TeamsViewCell.swift in Sources */,
+				84945EA22C3ED41800993951 /* TeamsViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84945E8D2C3E10EB00993951 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84945E8E2C3E10EB00993951 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84945E912C3E10EB00993951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84945E922C3E10EB00993951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84945E942C3E10EB00993951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Kbo League/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "karina.Kbo-League";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84945E952C3E10EB00993951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Kbo League/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "karina.Kbo-League";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84945E7A2C3E10E500993951 /* Build configuration list for PBXProject "Kbo League" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84945E912C3E10EB00993951 /* Debug */,
+				84945E922C3E10EB00993951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84945E932C3E10EB00993951 /* Build configuration list for PBXNativeTarget "Kbo League" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84945E942C3E10EB00993951 /* Debug */,
+				84945E952C3E10EB00993951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84945E772C3E10E500993951 /* Project object */;
+}
